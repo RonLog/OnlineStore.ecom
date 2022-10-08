@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    overflow-x: hidden;
+}
+
+header {
+    border: 1px solid red;
+    flex: 1 4 1500px;
+    height: 150px;
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside {
+    height: 1150px;
+    flex: 1 0 320px;
+    border: 1px solid red;
+    background-color: rgba(137, 43, 226, 0.404);
+    margin: 5px;
+}
+
+.one {
+    text-align: center;
+    font-weight: bold;
+}
+
+.two {
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+}
+
+.three {
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex span {
+    font-size: 50px;
+    color: goldenrod;
+}
+
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search input[type='text'] {
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+header .search input[type='button'] {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+section {
+    height: 200px;
+    width: 200px;
+    flex: 1 0 220px;
+    border: 1px solid red;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    row-gap: 4px;
+
+}
+
+section:hover {
+    box-shadow: 0px 10px 2px 3px gray;
+}
+
+section img {
+    height: 140px;
+}
+
+section button {
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgreen;
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: green;
+}
+
+section span {
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.616);
+    width: 150px;
+    align-self: center;
+    border-radius: 5px;
+
+}
+
+article {
+    height: 500px;
+    flex: 1 0 220px;
+    background-color: yellow;
+    margin: 5px;
+
+}
+
+footer {
+    height: 170px;
+    border: 1px solid red;
+    flex: 1 4 1500px;
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footdown {
+    flex: 1 4 1500px;
+    border: 1px solid red;
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    height: 50px;
+}
+
+.footdivision {
+    height: 15px;
+    flex: 1 4 750px;
+    text-align: center;
+}
+
+.basis {
+    flex: 0 4 800px;
+    border: 1px solid black;
+}
+
+.asidebase {
+    flex: 0 4 770px;
+    height: 550px;
+}
+
+.asidebase {
+    overflow: hidden;
+}
+
+.asidebase img {
+    transition: transform 1s;
+}
+
+.asidebase img:hover {
+    transform: scale(1.1);
+}
+
+.division {
+    height: 70px;
+    flex: 1 4 750px;
+    text-align: center;
+}
+
+.division ul {
+    margin: 28px 180px;
+}
+
+.division ul li {
+    display: inline;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.division ul li:hover {
+    box-shadow: 0px 3px 2px 3px white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.division ul ul {
+    position: absolute;
+    right: 0px;
+    color: black;
+    display: none;
+
+}
+
+.division ul li:hover ul {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.signin {
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    padding: 5px 5px;
+    display: none;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 5px solid goldenrod;
+}
+
+.signin h4 {
+    padding: 5px 0px;
+}
+
+.signin input[type='button'] {
+    background-color: rgb(228, 0, 70);
+    color: white;
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.division ul li:hover .signin {
+    display: block;
+    cursor: pointer;
+}
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 4 750px;
+}
+
+.newsletter ul {
+    list-style: none;
+}
+
+.newsletter ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.news1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 220px;
+
+}
+
+.news1 ul li:not(:first-child):hover a {
+    text-decoration: underline;
+    color: grey;
+}
+
+.news1 p a {
+    text-decoration: none;
+}
+
+.news1 p a:hover {
+    text-decoration: underline;
+}
+
+.news1 ul li:first-child {
+    margin-bottom: 10px;
+}
+
+
+
+@media all and (max-width:800px) {
+
+    .three ul {
+        margin: 28px auto;
+    }
+
+    .division ul ul {
+        right: 20px;
+    }
+
+    .asidebase img {
+        width: 550px;
+        height: 548px;
+    }
+
+    .signin {
+        top: 170px;
+        right: 20px;
+    }
+
+    footer .three {
+        font-size: 7px;
+    }
+
+    .aside img {
+        width: 400px;
+    }
+
+    .news1 {
+        text-align: center;
+    }
+
+    .about {
+        font-size: small;
+    }
+
+    .flex {
+        justify-content: center;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    header .search input[type='text'] {
+        width: 300px;
+    }
+}
