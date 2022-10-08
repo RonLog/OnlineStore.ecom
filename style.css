@@ -225,7 +225,6 @@ footer {
     right: 0px;
     color: black;
     display: none;
-
 }
 
 .division ul li:hover ul {
@@ -310,7 +309,10 @@ footer {
 
 
 @media all and (max-width:800px) {
-
+    .division ul {
+        position: absolute;
+        right: 15px;
+    }
     .division ul li{
         padding:5px 0px;
     }
