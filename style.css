@@ -309,15 +309,7 @@ footer {
 
 
 @media all and (max-width:800px) {
-    .division ul {
-        position: absolute;
-        right: 15px;
-    }
-    .division ul li{
-        padding:5px 0px;
-        font-size: 15px;
-        border-radius: 3px;
-    }
+   
     .three ul {
         margin: 28px auto;
     }
