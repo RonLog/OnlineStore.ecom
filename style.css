@@ -232,6 +232,7 @@ footer {
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    z-index: 1;
 }
 
 .signin {
@@ -263,6 +264,7 @@ footer {
 .division ul li:hover .signin {
     display: block;
     cursor: pointer;
+    z-index: 1;
 }
 
 .newsletter {
