@@ -315,7 +315,8 @@ footer {
     }
     .division ul li{
         padding:5px 0px;
-        font-size: small;
+        font-size: 15px;
+        border-radius: 3px;
     }
     .three ul {
         margin: 28px auto;
