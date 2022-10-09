@@ -76,7 +76,7 @@ header .search input[type='button'] {
 }
 .division {
     height: 70px;
-    flex: 1 4 350px;
+    flex: 1 4 390px;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ header .search input[type='button'] {
 .division ul li {
     display: inline;
     background-color: white;
-    padding: 10px;
+    padding: 8px;
     font-weight: bold;
     border-radius: 5px;
     border: none;
