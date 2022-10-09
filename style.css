@@ -23,18 +23,10 @@ header {
     background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
     margin: 5px;
     display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
+    flex-wrap: reverse;
     align-items: center;
 }
 
-.aside {
-    height: 1150px;
-    flex: 1 0 320px;
-    border: 1px solid red;
-    background-color: rgba(137, 43, 226, 0.404);
-    margin: 5px;
-}
 
 .one {
     text-align: center;
@@ -82,125 +74,15 @@ header .search input[type='button'] {
     border: none;
     border-radius: 5px;
 }
-
-section {
-    height: 200px;
-    width: 200px;
-    flex: 1 0 220px;
-    border: 1px solid red;
-    background-color: white;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border-radius: 5px;
-    row-gap: 4px;
-
-}
-
-section:hover {
-    box-shadow: 0px 10px 2px 3px gray;
-}
-
-section img {
-    height: 140px;
-}
-
-section button {
-    font-size: large;
-    font-weight: bold;
-    background-color: lightgreen;
-    align-self: center;
-    width: 150px;
-    border: none;
-    border-radius: 10px;
-    color: green;
-}
-
-section span {
-    font-size: large;
-    font-weight: bold;
-    color: red;
-    background-color: rgba(255, 0, 0, 0.616);
-    width: 150px;
-    align-self: center;
-    border-radius: 5px;
-
-}
-
-article {
-    height: 500px;
-    flex: 1 0 220px;
-    background-color: yellow;
-    margin: 5px;
-
-}
-
-footer {
-    height: 170px;
-    border: 1px solid red;
-    flex: 1 4 1500px;
-    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
-    margin: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.footdown {
-    flex: 1 4 1500px;
-    border: 1px solid red;
-    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
-    margin: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.size {
-    height: 50px;
-}
-
-.footdivision {
-    height: 15px;
-    flex: 1 4 750px;
-    text-align: center;
-}
-
-.basis {
-    flex: 0 4 800px;
-    border: 1px solid black;
-}
-
-.asidebase {
-    flex: 0 4 770px;
-    height: 550px;
-}
-
-.asidebase {
-    overflow: hidden;
-}
-
-.asidebase img {
-    transition: transform 1s;
-}
-
-.asidebase img:hover {
-    transform: scale(1.1);
-}
-
 .division {
     height: 70px;
-    flex: 1 4 750px;
+    flex: 1 4 350px;
     text-align: center;
 }
 
 .division ul {
-    margin: 28px 180px;
+    flex: 0 4 480px;
+    margin: 20px 0px;
 }
 
 .division ul li {
@@ -266,7 +148,79 @@ footer {
     cursor: pointer;
     z-index: 1;
 }
+.aside {
+    height: 1150px;
+    flex: 1 0 320px;
+    border: 1px solid red;
+    background-color: rgba(137, 43, 226, 0.404);
+    margin: 5px;
+}
+.basis {
+    flex: 0 4 800px;
+    border: 1px solid black;
+}
 
+.asidebase {
+    flex: 0 4 770px;
+    height: 550px;
+}
+
+.asidebase {
+    overflow: hidden;
+}
+
+.asidebase img {
+    transition: transform 1s;
+}
+
+.asidebase img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    height: 200px;
+    width: 200px;
+    flex: 1 0 220px;
+    border: 1px solid red;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    row-gap: 4px;
+
+}
+
+section:hover {
+    box-shadow: 0px 10px 2px 3px gray;
+}
+
+section img {
+    height: 140px;
+}
+
+section button {
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgreen;
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: green;
+}
+
+section span {
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.616);
+    width: 150px;
+    align-self: center;
+    border-radius: 5px;
+}
 .newsletter {
     display: flex;
     flex-wrap: wrap;
@@ -306,6 +260,40 @@ footer {
 
 .news1 ul li:first-child {
     margin-bottom: 10px;
+}
+
+footer {
+    height: 170px;
+    border: 1px solid red;
+    flex: 1 4 1500px;
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footdown {
+    flex: 1 4 1500px;
+    border: 1px solid red;
+    background: linear-gradient(to right, rgb(146, 216, 243), rgb(234, 217, 88));
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    height: 50px;
+}
+
+.footdivision {
+    height: 15px;
+    flex: 1 4 750px;
+    text-align: center;
 }
 
 
